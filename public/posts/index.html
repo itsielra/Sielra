@@ -110,6 +110,55 @@
 
         </div>
       
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/posts/hugo-setup/" class="link black dim">
+        
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <h1 id="hugo-setup">Hugo Setup</h1>
+<ol>
+<li>Install Brew:</li>
+<li>Install Git:</li>
+</ol>
+<pre tabindex="0"><code>brew install git
+</code></pre><ol>
+<li>Install Go:</li>
+</ol>
+<pre tabindex="0"><code>brew install go
+</code></pre><ol>
+<li>Install Hugo:</li>
+</ol>
+<pre tabindex="0"><code>brew install hugo
+</code></pre><ol>
+<li>May be??: Open the hidden <code>~/.zshrc</code> (or <code>~/.bashrc</code>) file in a text editor, add the following line, and restart your Terminal app so that Hugo can find the location of its Go dependency:</li>
+</ol>
+<pre tabindex="0"><code>export PATH=$PATH:/usr/local/go/bin
+</code></pre><ol>
+<li>Add Content (Add a new page to your site)</li>
+</ol>
+<pre tabindex="0"><code>hugo new content content/posts/my-first-post.md
+</code></pre><ol>
+<li>Hugo created the file in the <code>content/posts</code> directory. Open the file with your editor.</li>
+</ol>
+<pre tabindex="0"><code>+++
+title = &#39;My First Post&#39;
+date = 2024-01-14T07:07:07+01:00
+draft = true
++++
+</code></pre><p>Make a folder for all the hugo sites (optional)
+Create a new site at the desired folder: hugo new site <!-- raw HTML omitted --></p>
+    </div>
+    <a href="/posts/posts/hugo-setup/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
     </section></article>
 
     </main>

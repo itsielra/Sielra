@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>&lt;h1 id=&#34;howdy&#34;&gt;Howdy&lt;/h1&gt;&#xA;&lt;p&gt;This is bogus&lt;/p&gt;</description>
     </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/posts/hugo-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/posts/hugo-setup/</guid>
+      <description>&lt;h1 id=&#34;hugo-setup&#34;&gt;Hugo Setup&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Install Brew:&lt;/li&gt;&#xA;&lt;li&gt;Install Git:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;brew install git&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol&gt;&#xA;&lt;li&gt;Install Go:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;brew install go&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol&gt;&#xA;&lt;li&gt;Install Hugo:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;brew install hugo&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol&gt;&#xA;&lt;li&gt;May be??: Open the hidden &lt;code&gt;~/.zshrc&lt;/code&gt; (or &lt;code&gt;~/.bashrc&lt;/code&gt;) file in a text editor, add the following line, and restart your Terminal app so that Hugo can find the location of its Go dependency:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;export PATH=$PATH:/usr/local/go/bin&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol&gt;&#xA;&lt;li&gt;Add Content (Add a new page to your site)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new content content/posts/my-first-post.md&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol&gt;&#xA;&lt;li&gt;Hugo created the file in the &lt;code&gt;content/posts&lt;/code&gt; directory. Open the file with your editor.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;+++&#xA;title = &amp;#39;My First Post&amp;#39;&#xA;date = 2024-01-14T07:07:07+01:00&#xA;draft = true&#xA;+++&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Make a folder for all the hugo sites (optional)&#xA;Create a new site at the desired folder: hugo new site &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

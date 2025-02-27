@@ -11,6 +11,8 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-02-27T13:24:01-06:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/posts/hugo-setup/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
