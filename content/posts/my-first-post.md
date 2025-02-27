@@ -5,4 +5,4 @@ title = 'My First Post'
 
 # Howdy
 
-This is bogus
+This is not bogus
