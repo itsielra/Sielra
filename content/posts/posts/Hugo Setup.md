@@ -1,4 +1,9 @@
-# Hugo Setup
++++
+date = '2025-02-27T13:24:01-06:00'
+title = 'How to make a website'
++++
+
+# Setup
 
 1. Install Brew: 
 2. Install Git:
